@@ -33,7 +33,7 @@ const cartItems =useSelector(store=>store.cart.items);
     <div className=' w-full sticky top-0 bg-white  dark:bg-brand-coal dark:text-brand-beige z-40 mb-6'>
       <div className='mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8'>
         <div className='inline-flex items-center space-x-2'>
-          <Link to={"/"}><span className='font-extrabold text-5xl text-brand-red '>BiteRush</span></Link>
+          <Link to={"/"}><span className='font-extrabold text-5xl text-brand-purple '>BiteRush</span></Link>
           <Link to={"/cart"}>
           <div className="flex mt-3 lg:hidden">
                 <ShoppingBag />
@@ -63,7 +63,7 @@ const cartItems =useSelector(store=>store.cart.items);
                >
                 <div className="flex">
                 <ShoppingBag color="grey" />
-                <span className="bg-red-500 px-2 ml-1 rounded-full  text-white"> {cartItems.length} </span>
+                <span className="bg-purple-500 px-2 ml-1 rounded-full  text-white"> {cartItems.length} </span>
                 </div>
                   
               </Link>
@@ -74,7 +74,7 @@ const cartItems =useSelector(store=>store.cart.items);
           <a href="https://github.com/Sejal99/food_delivery">
           <button
             type='button'
-            className='rounded-md bg-red-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black'
+            className='rounded-md bg-purple-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-purple-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black'
           >
             Github 
           </button>
@@ -93,7 +93,7 @@ const cartItems =useSelector(store=>store.cart.items);
               <div className='px-5 pb-6 pt-5'>
                 <div className='flex items-center justify-between'>
                   <div className='inline-flex items-center space-x-2'>
-                  <Link to={"/"}><span className='font-extrabold text-5xl text-brand-red  '>eatsy</span></Link>
+                  <Link to={"/"}><span className='font-extrabold text-5xl text-brand-purple  '>BiteRush</span></Link>
                   </div>
                   <div className='-mr-2'>
                     <button

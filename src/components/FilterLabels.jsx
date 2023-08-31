@@ -18,7 +18,7 @@ const FilterLabels = ({ filterLabels }) => {
           key={label}
           className={`flex space-x-2 ${
             selectedLabels.includes(label)
-              ? "bg-red-500 text-white font-semibold rounded-xl p-2 m-2 border-2 border-red-500 cursor-pointer"
+              ? "bg-purple-500 text-white font-semibold rounded-xl p-2 m-2 border-2 border-purple-500 cursor-pointer"
               : "bg-white text-black font-semibold rounded-xl p-2 m-2 border-2 border-gray-300 cursor-pointer"
           }`}
         >

@@ -98,7 +98,7 @@ const FilterModal = ({ isOpen, onClose }) => {
             <div className='flex justify-between'>
               <h2 className='mt-4 m-3 dark:text-brand-beige font-bold text-2xl text-slate-700'>
                 {" "}
-                <span className='bg-red-500 px-2 ml-1   rounded-full  text-white'>
+                <span className="bg-purple-500 px-2 mr-1  rounded-full  text-white">
                   {" "}
                   {filterCount}
                 </span>{" "}
@@ -106,13 +106,13 @@ const FilterModal = ({ isOpen, onClose }) => {
               </h2>
               <button
                 onClick={handleClear}
-                className='mt-4 bg-red-500 hover:bg-red-400 text-white text-s font-semibold m-3 p-2 rounded-3xl'
+                className='mt-4 bg-purple-500 hover:bg-purple-400 text-white text-s font-semibold m-3 p-2 rounded-3xl'
               >
                 CLEAR
               </button>
               <button
                 onClick={onClose}
-                className='mt-4 bg-red-500 hover:bg-red-400 text-white m-3 p-2  rounded-full'
+                className='mt-4 bg-purple-500 hover:bg-purple-400 text-white m-3 p-2  rounded-full'
               >
                 <X />
               </button>
@@ -124,9 +124,9 @@ const FilterModal = ({ isOpen, onClose }) => {
                   console.log("currentCategory:", currentCategory, "category:", category),
                   <label
                     key={category}
-                    className={`p-1 m-1 rounded-lg cursor-pointer active:bg-red-500 ${
+                    className={`p-1 m-1 rounded-lg cursor-pointer active:bg-purple-500 ${
                       currentCategory == category
-                        ? "bg-red-500 text-white font-semibold"
+                        ? "bg-purple-500 text-white font-semibold"
                         : "bg-white  dark:bg-brand-coal dark:text-brand-beige text-black"
                     }`}
                   >
@@ -141,7 +141,7 @@ const FilterModal = ({ isOpen, onClose }) => {
                       }}
                       className='hidden'
                     />
-                   <p className=" active:bg-red-500 active:text-white font-semibold">{filterLabels[category].label} </p> 
+                   <p className=" active:bg-purple-500 active:text-white font-semibold">{filterLabels[category].label} </p> 
                   </label>
                 ))}
               </div>
@@ -153,7 +153,7 @@ const FilterModal = ({ isOpen, onClose }) => {
                       key={subcategory}
                       className={`p-1 m-1 rounded-lg cursor-pointer ${
                         currentSubcategory === subcategory
-                          ? "bg-red-400  text-white font-semibold"
+                          ? "bg-purple-400  text-white font-semibold"
                           : "bg-white  dark:bg-brand-coal dark:text-brand-beige text-black"
                       }`}
                     >
