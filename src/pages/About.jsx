@@ -9,12 +9,10 @@ function About() {
             YOU ARE , WHAT YOU EAT
           </h2>
           <p className='mx-auto p-4 rounded-lg mt-4 max-w-2xl text-left border-2 border-brand-red text-xl text-red-400'>
-            "Welcome to eatsy Indulge your cravings with our cutting-edge food
-            ordering app, crafted as an academic endeavor to mirror the best
-            features of your favorite platforms. Discover delectable delights
-            from local restaurants, just like Zomato and Swiggy. While we're not
-            for real-world use, we're your one-stop destination to explore the
-            digital flavors of food tech innovation!"
+            "Welcome to BiteRush! Immerse yourself in the realm of irresistible cravings through our innovative food ordering app.
+             Born as an academic project, we've meticulously woven together the finest traits from your beloved platforms. 
+             Embark on a journey to uncover culinary treasures from nearby eateries, reminiscent of the experiences you cherish with Zomato and Swiggy. 
+            Although not tailored for practical application, we serve as your gateway to savor the digital spectrum of gastronomic technology and innovation!
           </p>
         </div>
 
