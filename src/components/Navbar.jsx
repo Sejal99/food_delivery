@@ -71,7 +71,7 @@ const cartItems =useSelector(store=>store.cart.items);
           </ul>
         </div>
         <div className='hidden lg:block'>
-          <a href="https://github.com/gyandeeparyan/eatsy-food">
+          <a href="https://github.com/Sejal99/food_delivery">
           <button
             type='button'
             className='rounded-md bg-red-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black'

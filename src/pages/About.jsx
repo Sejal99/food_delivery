@@ -8,7 +8,7 @@ function About() {
           <h2 className='text-3xl font-bold leading-tight text-black dark:text-brand-beige sm:text-4xl lg:text-5xl lg:leading-tight'>
             YOU ARE , WHAT YOU EAT
           </h2>
-          <p className='mx-auto p-4 rounded-lg mt-4 max-w-2xl text-left border-2 border-brand-red text-xl text-red-400'>
+          <p className='mx-auto p-4 rounded-lg mt-4 max-w-2xl text-left border-2 border-brand-red text-xl text-blue-400'>
             "Welcome to BiteRush! Immerse yourself in the realm of irresistible cravings through our innovative food ordering app.
              Born as an academic project, we've meticulously woven together the finest traits from your beloved platforms. 
              Embark on a journey to uncover culinary treasures from nearby eateries, reminiscent of the experiences you cherish with Zomato and Swiggy. 
